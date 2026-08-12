@@ -1,0 +1,24 @@
+---
+layout: layouts/catalog-page
+title: SD Command Enum
+---
+
+## Enum `Command`
+
+Low-level SD command codes.
+
+- `CMD0_GO_IDLE_STATE = 0`
+- `CMD1_SEND_OP_COND = 1`
+- `CMD8_SEND_IF_COND = 8`
+- `CMD9_SEND_CSD = 9`
+- `CMD10_SEND_CID = 10`
+- `CMD12_STOP_TRANSMISSION = 12`
+- `CMD13_SEND_STATUS = 13`
+- `CMD16_SET_BLOCKLEN = 16`
+- `CMD17_READ_SINGLE_BLOCK = 17`
+- `CMD18_READ_MULTIPLE_BLOCK = 18`
+- `CMD24_WRITE_BLOCK = 24`
+- `CMD25_WRITE_MULTIPLE_BLOCK = 25`
+- `CMD55_APP_CMD = 55`
+- `CMD58_READ_OCR = 58`
+- `ACMD41_SD_SEND_OP_COND = 41`
